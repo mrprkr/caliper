@@ -27,7 +27,8 @@ keystone.init({
 	'session': true,
 	'auth': true,
 	'user model': 'User',
-	'cookie secret': 'lOu-.ipBx<g+Qhn#{hBdT|Gp8?q{x/p`fzhTvBfJt{5a~,h^&Tyte?}b%iXbG75q'
+	'cookie secret': 'lOu-.ipBx<g+Qhn#{hBdT|Gp8?q{x/p`fzhTvBfJt{5a~,h^&Tyte?}b%iXbG75q',
+	'cloudinary config': 'cloudinary://814597952499711:VYyoWycrDbw9AxT89znrBa0QOuE@dd64jyjxc'
 
 });
 
@@ -44,7 +45,6 @@ keystone.set('locals', {
 	env: keystone.get('env'),
 	utils: keystone.utils,
 	editable: keystone.content.editable,
-	'cloudinary config': 'cloudinary://814597952499711:VYyoWycrDbw9AxT89znrBa0QOuE'
 });
 
 // Load your project's Routes
@@ -94,6 +94,7 @@ keystone.set('nav', {
 	'enquiries': 'enquiries',
 	'users': 'users'
 });
+
 
 // Start Keystone to connect to your database and initialise the web server
 
