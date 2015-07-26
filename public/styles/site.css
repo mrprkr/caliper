@@ -4831,3 +4831,10 @@ nav ul {
   nav ul li {
     float: left;
     margin-right: 10px; }
+
+#footer {
+  border: none; }
+
+#keystoneMessage {
+  font-size: 0.9rem;
+  text-align: center; }
