@@ -44,7 +44,7 @@ keystone.set('locals', {
 	env: keystone.get('env'),
 	utils: keystone.utils,
 	editable: keystone.content.editable,
-	'cloudinary config': 'cloudinary://814597952499711:VYyoWycrDbw9AxT89znrBa0QOuE';
+	'cloudinary config': 'cloudinary://814597952499711:VYyoWycrDbw9AxT89znrBa0QOuE'
 });
 
 // Load your project's Routes
