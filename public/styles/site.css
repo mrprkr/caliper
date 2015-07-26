@@ -4821,3 +4821,13 @@ button.close {
   display: block;
   max-width: 100%;
   height: auto; }
+
+nav {
+  display: block;
+  height: 40px; }
+
+nav ul {
+  margin-left: 20px; }
+  nav ul li {
+    float: left;
+    margin-right: 10px; }
